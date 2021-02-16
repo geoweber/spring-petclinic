@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>2.4.2-SNAPSHOT</version>
+  <version>2.4.2</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -33,7 +33,7 @@
 
   <scm>
     <connection>scm:git:https://github.com/geoweber/spring-petclinic.git</connection>
-    <url>http://github.com/geoweber/spring-petclinic</url>
+    <url>https://github.com/geoweber/spring-petclinic</url>
     <developerConnection>scm:git:https://github.com/geoweber/spring-petclinic.git</developerConnection>
     <tag>spring-petclinic-2.4.2</tag>
   </scm>
