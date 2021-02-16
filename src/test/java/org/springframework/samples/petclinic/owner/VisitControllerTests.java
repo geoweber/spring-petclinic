@@ -28,7 +28,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.samples.petclinic.visit.VisitRepository;
+import org.springframework.samples.petclinic.controller.VisitController;
+import org.springframework.samples.petclinic.model.Pet;
+import org.springframework.samples.petclinic.repository.PetRepository;
+import org.springframework.samples.petclinic.repository.VisitRepository;
 import org.springframework.test.web.servlet.MockMvc;
 
 /**
@@ -39,7 +42,7 @@ import org.springframework.test.web.servlet.MockMvc;
 @WebMvcTest(VisitController.class)
 class VisitControllerTests {
 
-	private static final int TEST_PET_ID = 1;
+	private static final long TEST_PET_ID = 1;
 
 	@Autowired
 	private MockMvc mockMvc;
